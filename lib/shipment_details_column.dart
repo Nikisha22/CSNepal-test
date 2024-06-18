@@ -39,19 +39,19 @@ class _ShipmentDetailsColumnState extends State<ShipmentDetailsColumn> {
                   ),
                 ],
               ),
-              // Email and Phone buttons
+            
               Row(
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // Handle phone button press
+                     
                     },
                     child: Text('Phone'),
                   ),
                   SizedBox(width: 8),
                   ElevatedButton(
                     onPressed: () {
-                      // Handle email button press
+                      
                     },
                     child: Text('Email'),
                   ),
@@ -75,7 +75,6 @@ class _ShipmentDetailsColumnState extends State<ShipmentDetailsColumn> {
             ),
           ),
           SizedBox(height: 16),
-          // Conditionally show detailed content
           _showDetails
               ? Expanded(
                   child: Column(
@@ -160,14 +159,14 @@ class _ShipmentDetailsColumnState extends State<ShipmentDetailsColumn> {
                       SizedBox(height: 16),
                       Expanded(
                         child: Image.asset(
-                          'lib/Images/map.png', // Ensure this is the correct path to your local image
+                          'lib/Images/map.png', 
                           fit: BoxFit.cover,
                         ),
                       ),
                     ],
                   ),
                 )
-              : SizedBox(), // Empty container when details are not shown
+              : SizedBox(),
         ],
       ),
     );
