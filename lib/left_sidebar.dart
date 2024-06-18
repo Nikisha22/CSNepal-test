@@ -127,7 +127,7 @@ class LeftSidebar extends StatelessWidget {
                       alignment: Alignment.centerRight,
                       widthFactor: 0.5,
                       child: Image.asset(
-                        'lib/Images/truck long.jpg', // Adjust image path and size as needed
+                        'lib/Images/truck long.jpg', 
                         height: 40,
                       ),
                     ),
