@@ -37,8 +37,8 @@ class ShipmentDetail extends StatelessWidget {
               ),
               Image.asset(
                 imagePath,
-                height: 30, // Adjusted image height
-                width: 30, // Adjusted image width
+                height: 30, 
+                width: 30,
                 fit: BoxFit.cover,
               ),
             ],
